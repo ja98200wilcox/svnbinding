@@ -1,0 +1,8 @@
+#!/bin/sh
+
+REPOS="$1"
+TXN="$2"
+
+
+java -jar svnbind-1.0/svnbind-1.0.jar -cmd verify -t $2 -repo $1
+

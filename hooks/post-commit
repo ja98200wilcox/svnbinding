@@ -1,0 +1,8 @@
+#!/bin/sh
+
+REPOS="$1"
+REV="$2"
+
+
+java -jar svnbind-1.0/svnbind-1.0.jar -cmd commit -r $2 -repo $1
+

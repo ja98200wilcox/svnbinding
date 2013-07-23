@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<configuration>  
+<!-- the location of Bugzilla. Make sure this is on.  check bugzilla doc on how to turn on xmlrpc interface-->
+  <bugzillaEndpoint>http://bugzilla/xmlrpc.cgi</bugzillaEndpoint>
+  <!--  Svn look command location-->
+  <svnlook>/usr/bin/svnlook</svnlook>
+  <users>
+  <!-- Bugzilla users that will do svn checkins -->
+  	<TestUser1> <!-- SVN username -->
+  		<bugzillaUserId>TestUser1@foo.com</bugzillaUserId> <!-- bugzilla username -->
+  		<bugzillaPassword>encrpyted password here</bugzillaPassword> <!-- bugzilla encrpted password -->
+  	</TestUser1>
+  </users>
+</configuration>
